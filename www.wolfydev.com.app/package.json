@@ -1,0 +1,33 @@
+{
+  "name": "MOVIE-API",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "EslavaDev",
+  "license": "MIT",
+  "dependencies": {
+    "bookshelf": "^0.13.3",
+    "hapi": "^17.5.2",
+    "hapi-swagger": "^9.1.1",
+    "inert": "^5.1.0",
+    "knex": "^0.13.0",
+    "mysql": "^2.15.0",
+    "nconf": "^0.10.0",
+    "node-notifier": "^5.2.1",
+    "vision": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/bookshelf": "^0.9.8",
+    "@types/hapi": "^17.0.15",
+    "@types/inert": "^5.1.1",
+    "@types/knex": "^0.14.15",
+    "@types/nconf": "0.0.37",
+    "@types/node": "^10.5.2",
+    "@types/vision": "^5.3.4"
+  }
+}
