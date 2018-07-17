@@ -1,6 +1,7 @@
-import {getServerConfig, IServerConfig} from './Config';
-import notifier = require('node-notifier');
+import  * as Server from "./Server";
+import { getServerConfig } from "./Config";
 
-var server: IServerConfig = getServerConfig();
-
-notifier.notify(server.host +'  '+ server.port+'    ' +server.jwtTimeout);
+(async function main(){
+   let configServer = getServerConfig(); 
+   await Server.init(configServer);
+})()

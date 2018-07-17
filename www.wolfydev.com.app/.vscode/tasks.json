@@ -8,7 +8,7 @@
       "type": "typescript",
       "tsconfig": "www.wolfydev.com.app\\tsconfig.json",
       "problemMatcher": [
-        "$tsc"
+          "$tsc"
       ]
     }
   ]

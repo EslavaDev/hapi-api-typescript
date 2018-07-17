@@ -10,11 +10,11 @@ const configProvider = new nconf.Provider({
     }
 });
 function getServerConfig() {
-    return configProvider.get("server"); //mapping the JSON object to IServerConfig interface
+    return configProvider.get("server"); //mapping the JSON object to IServerCOnfig interface
 }
 exports.getServerConfig = getServerConfig;
-function getDatabaseCongif() {
-    return configProvider.get("database"); //mapping the JSON object to IDatabaseConfig interface
+function getDatabaseConfig() {
+    return configProvider.get("database"); //mapping the JSON object to IServerCOnfig interface
 }
-exports.getDatabaseCongif = getDatabaseCongif;
+exports.getDatabaseConfig = getDatabaseConfig;
 //# sourceMappingURL=Config.js.map
